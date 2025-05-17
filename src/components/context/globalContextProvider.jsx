@@ -569,7 +569,7 @@ export function GlobalContextProvider({ children }){
 
     // Optional: Initialize other state variables
     //setDisplayItems(tmpItem);
-    setAdnminDetails(tmpadminDetails);
+    //setAdnminDetails(tmpadminDetails);
     //setDisplayTopPreBuildDesktop(tmpItem);
     //setDisplayUsers(tmpDisplayUsers);
     fetchitems();
