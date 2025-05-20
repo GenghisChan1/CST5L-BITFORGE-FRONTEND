@@ -4,12 +4,17 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  server: {
+  base: '/',
+  preview: {
     host: '0.0.0.0',
     port: 8080,
-    strictPort: true
+    strictPort: true,
+    allowedHosts: [
+      'cst5l-bitforge-frontend-production.up.railway.app',
+      'localhost'
+    ]
   },
-  preview: {
+  server: {
     host: '0.0.0.0',
     port: 8080,
     strictPort: true
