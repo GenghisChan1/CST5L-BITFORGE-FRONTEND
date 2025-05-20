@@ -7,7 +7,6 @@ const axiosClient = axios.create({
     'Accept': 'application/json',
     'Content-Type': 'application/json',
     'X-Requested-With': 'XMLHttpRequest',
-    'Origin': import.meta.env.VITE_API_ORIGIN
   }
 });
 
